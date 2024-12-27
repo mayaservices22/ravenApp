@@ -1,0 +1,111 @@
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 3rem;
+padding-inline: 1.5em;
+  background-color: #fff;
+}
+
+.logo {
+  width: 100px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+.content {
+  padding: 2em 0;
+}
+.content .title {
+  text-align: start;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-bottom: 10px;
+}
+
+.content .sub {
+  font-size: 0.98em;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #000;
+}
+
+.inputs {
+  margin-bottom: 15px;
+}
+.inputs label {
+  font-size: 1em;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #595858;
+  display: block;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  border-radius: 0.78em;
+  padding: 10px;
+  border: 1px solid #f2f4f7;
+  margin: 5px 0 0;
+}
+
+.input .homeIcon {
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #595858;
+}
+
+.input input {
+  border: none;
+  background: none;
+  outline: none;
+  flex: 1;
+  padding: 10px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.1em;
+}
+
+.forgot-password {
+  margin-bottom: 20px;
+  text-align: end;
+}
+
+.forgot-password a {
+  color: #9900ff;
+  text-decoration: none;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.sign-in-button {
+  margin-bottom: 20px;
+}
+
+.sign-in-button button {
+  width: 100%;
+  height: 50px;
+  background: #7559E6;
+  border: 0;
+  border-radius: 8px;
+  color: var(--primary_white);
+  cursor: pointer;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  color: #fff;
+  outline: 0;
+  padding: 10px 32px;
+  text-transform: capitalize;
+}
+
+.sign-in-button button:hover {
+  opacity: 0.9;
+}

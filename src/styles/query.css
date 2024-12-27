@@ -1,0 +1,82 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #e5e5e5;
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px 40px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.no-btn {
+  background-color: #fff;
+  color: #000;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  outline: 0;
+  padding: 10px 32px;
+  text-transform: capitalize;
+  border: none;
+  border: 2px solid #394be7;
+}
+
+.no-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.yes-btn {
+  background: linear-gradient(90deg, #394be7 32.81%, #ea577e);
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  outline: 0;
+  padding: 10px 32px;
+  text-transform: capitalize;
+  color: #fff;
+  border: none;
+}
+
+.yes-btn:hover {
+  background-image: linear-gradient(to right, #5a10bb, #1564dc);
+}
